@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-""" Script for the basic annotation task """
+""" Script for the basic annotation add task """
 
 
 def add(a: float, b: float) -> float:
