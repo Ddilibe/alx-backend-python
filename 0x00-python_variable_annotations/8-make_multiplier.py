@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 """ Script for basic annotation complex types functions task """
-
 from typing import Callable
 
 
