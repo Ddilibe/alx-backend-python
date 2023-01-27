@@ -30,4 +30,5 @@ class TestAccessNestedMap(TestCase):
 			Method for unittesting access nested map
 		"""
 		args = [nested_map, path]
-		self.assertRaises(KeyError, access_nested_map, *args)
+		with self.assertRaises(KeyError):
+			access_nested_map(*args)
